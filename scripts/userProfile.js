@@ -13,6 +13,6 @@ console.log("USERNAME : " + username + "\nEMAIL : " + email + "\nPASSWORD : " + 
 document.getElementById("date").innerHTML = new Date();
 
 function reDirect() {
-    window.location = "/index.html";
+    window.location = "../index.html";
     console.log("Back to home page");
 }
