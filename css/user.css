@@ -58,7 +58,7 @@
 .notice-image-text {
     width: 100%;
     height: 250px;
-    background-image: url('/images/notice-banner.JPG');
+    background-image: url('../images/notice-banner.JPG');
     background-size: cover;
     background-position: center;
 }

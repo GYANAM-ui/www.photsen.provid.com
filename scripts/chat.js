@@ -46,7 +46,7 @@
                   name = message_data['name'];
                   message = message_data['message'];
 
-                  name_tag = "<h4 class='username_h4'><img class='user_tick' src='/images/profile.png'/> " + name + "</h4>";
+                  name_tag = "<h4 class='username_h4'><img class='user_tick' src='../images/profile.png'/> " + name + "</h4>";
                   message_tag = "<h4 class='message_h4'>" + message + "</h4><hr>";
                   row = name_tag + message_tag;
                   document.getElementById("output").innerHTML += row;
