@@ -8,6 +8,6 @@ function startChat() {
         localStorage.setItem("user_name", user_name);
         localStorage.setItem("room_name", room_name);
 
-        window.location = '/navigations/chat.html';
+        window.location = 'chat.html';
     }
 }
